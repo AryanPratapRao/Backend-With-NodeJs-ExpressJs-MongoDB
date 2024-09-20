@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style2.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <a href="/" class="home">Home</a>
+        </div>
+        <h1>All Users</h1>
+        <div class="cards">
+            <% if(users.length > 0){ %>
+                <% users.forEach((user) =>{ %>
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="<%= user.image %>" alt="profile" class="img"/>
+                        </div>
+                        <h2><%= user.name %></h2>
+                        <p><%= user.email %></p>
+                        <div class="links">
+                            <a href="/edit/<%= user._id %>" class="edt">Edit</a>
+                            <a href="/delete/<%= user._id %>" class="del">Delete</a>
+                        </div>
+                    </div>
+                <% }) %>
+            <% }else{ %>
+                <h2 style="opacity: .5;color: #fff;">No Data</h2>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>

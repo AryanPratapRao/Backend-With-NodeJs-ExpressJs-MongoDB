@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.main h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.inputBox{
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(67, 67, 243);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav{
+    margin-bottom: 30px;
+}
+
+.userRead{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+}

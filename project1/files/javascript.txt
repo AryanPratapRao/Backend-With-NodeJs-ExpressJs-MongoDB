@@ -1,0 +1,2 @@
+javascript is a programming  language to allow to crate a server useing nodeJS runtime envorment
+nodejs allow to write a javaScript program and raper layer accept the javascript program and create a server with the help of c++ (v8 engin) module.

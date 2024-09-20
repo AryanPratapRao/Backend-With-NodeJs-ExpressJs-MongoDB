@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.main h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.inpBox{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    outline: none;
+    padding-left: 10px;
+}
+
+.btn{
+    color: #fff;
+    background-color: rgb(61, 61, 247);
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
